@@ -9,5 +9,5 @@ verbs.py:  contains a non-empty list called verbs of verbs as strings.
 adjectives.py:  contains a list called adjectives of adjectives as strings.
 adverbs.py
 
-ignore_this.txt:  A text file that will be igorned by Git by listing it in the gitignore file.
+mynotes.txt:  A text file that will be igorned by Git by listing it in the gitignore file.
 .gitignore.txt:  The file that tell Git the form of file that should be ignored
