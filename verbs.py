@@ -1,1 +1,1 @@
-# The contributor should create list of verbs that end in s called verbs.
+# The contributor should create a list named verbs of verbs that end in s.
