@@ -1,1 +1,2 @@
-# A list of adjectives called adjectives
+# A list of adjectives called adj
+adj = ['blue', 'happy', 'monstrous', 'bad', 'good']
