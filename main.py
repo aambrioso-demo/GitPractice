@@ -15,7 +15,7 @@ try:
     import adjectives
     length = len(adjectives.adjs)
     adj1 = adjectives.adjs[num(length)]
-    adj1 = adj1[0].upper() + adj[1:] # in order to capitalize the first letter of the sentence.
+    adj1 = adj1[0].upper() + adj1[1:] # in order to capitalize the first letter of the sentence.
     adj2 = adjectives.adjs[num(length)]
     
 except:
@@ -26,7 +26,7 @@ except:
 # if it is not set up the nouns default to those in the original quote.
 try:
 	import nouns
-	length = len(nouns.noun)
+	length = len(nouns.nouns)
 	noun1 = nouns.nouns[num(length)]
 	noun2 = nouns.nouns[num(length)]
 	noun3 = nouns.nouns[num(length)]
@@ -46,7 +46,7 @@ except:
 
 try:
 	import verbs
-	length = len(verbs.verb)
+	length = len(verbs.verbs)
 	verb1 = verbs.verbs[num(length)]
 
 except:
@@ -57,7 +57,6 @@ except:
 quote_with_blanks = f'{adj1} {noun1} inverts the {noun2}.\n\
 In {adj2} {noun1}, you\'re given a {noun3}, and your {noun4} is to find out the {noun5}.\n\
 In {adj1} {noun1}, you give the {noun6} the {noun5}, and it {verb1} the {noun3}.'
-print('\n')
 print('*' * 70)
 print(quote_with_blanks)
 print('*' * 70)
