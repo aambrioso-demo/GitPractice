@@ -1,2 +1,2 @@
-# A list of adjectives called adj
-adj = ['blue', 'happy', 'monstrous', 'bad', 'good']
+# The contributor should create a list of adjectives called adjs.
+adjs = ['blue', 'happy', 'monstrous', 'bad', 'good']

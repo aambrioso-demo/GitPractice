@@ -1,1 +1,1 @@
-These are notes for myself.   I am using the test to check that the  .gitignore.txt file works.
+These are notes for myself.   I am using the test to check that the  .gitignore file works.

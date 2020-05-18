@@ -1,1 +1,2 @@
-# A list of verbs called verb that end in s.
+# The contributor should create list of verbs that end in s called verbs.
+verbs =['runs', 'hides', 'swims']

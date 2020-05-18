@@ -13,12 +13,11 @@ def num(length):
 # If it is not set up adjectives default to the original quote.
 try:
     import adjectives
-    length = len(adjectives.adj)
-    adj1 = adjectives.adj[num(length)]
+    length = len(adjectives.adjs)
+    adj1 = adjectives.adjs[num(length)]
     adj1 = adj1[0].upper() + adj[1:] # in order to capitalize the first letter of the sentence.
-    adj2 = adjectives.adj[num(length)]
-    print(adj1, adj2)
-
+    adj2 = adjectives.adjs[num(length)]
+    
 except:
     print('Using default adjectives.')
     adj1 = 'Computer'
@@ -28,12 +27,12 @@ except:
 try:
 	import nouns
 	length = len(nouns.noun)
-	noun1 = nouns.noun[num(length)]
-	noun2 = nouns.noun[num(length)]
-	noun3 = nouns.noun[num(length)]
-	noun4 = nouns.noun[num(length)]
-	noun5 = nouns.noun[num(length)]
-	noun6 = nouns.noun[num(length)]
+	noun1 = nouns.nouns[num(length)]
+	noun2 = nouns.nouns[num(length)]
+	noun3 = nouns.nouns[num(length)]
+	noun4 = nouns.nouns[num(length)]
+	noun5 = nouns.nouns[num(length)]
+	noun6 = nouns.nouns[num(length)]
 
 except:
     print('Using default nouns')
@@ -48,7 +47,7 @@ except:
 try:
 	import verbs
 	length = len(verbs.verb)
-	verb1 = verbs.verb[num(length)]
+	verb1 = verbs.verbs[num(length)]
 
 except:
     print('Using the default verb.')

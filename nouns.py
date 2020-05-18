@@ -1,2 +1,2 @@
-# A list of nouns called noun
-noun = ['computer', 'cat', 'luggage', 'robot']
+# Contributor should create a non-empty list of nouns called nouns.
+
