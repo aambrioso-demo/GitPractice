@@ -1,2 +1,2 @@
-# A list of nouns called nouns
+# A list of nouns called noun
 noun = ['computer', 'cat', 'luggage', 'robot']

@@ -1,1 +1,1 @@
-# A list of verbs called verbs that end in s.
+# A list of verbs called verb that end in s.
