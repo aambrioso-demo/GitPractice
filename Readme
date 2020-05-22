@@ -3,7 +3,7 @@ The repository contains files for an excercise in using Git commands.
 It should contain the following files:
 
 main.py:  Prints out a phrase with nouns, verbs, and adjectives filled in randomly.
-If files are empty will return a 
+If files are empty will return a default phrase.
 
 nouns.py:  contains a non-empty list called nouns of nouns as strings.
 verbs.py:  contains a non-empty list called verbs of verbs as strings.
@@ -11,4 +11,4 @@ adjectives.py:  contains a list called adjectives of adjectives as strings.
 adverbs.py
 
 mynotes.txt:  A text file that will be ignorned by Git by listing it in the gitignore file.
-.gitignore:  The file that tell Git the the files that should be ignored.
+.gitignore:  The file that tells Git the files that should be ignored.
